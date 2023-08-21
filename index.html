@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Nicolas Yevenes C. | CV</title>
+</head>
+
+<body class="bg-gray-100 antialiased dark:bg-zinc-950">
+    <main class="main-container">
+        <div class="grid gap-5 lg:grid-cols-3">
+
+            <div class="space-y-5"><!-- Start Left Side -->
+
+                <div class="shadow rounded-xl overflow-hidden"><!-- Start User Block -->
+                    <div class="h-32 bg-cover" style="background-image: url('img/banner.png');"></div>
+                    <div class="pt-14 p-7 bg-white relative dark:bg-zinc-800">
+                        <span class="status-badge bg-teal-400 dark:text-black">Open to Work</span>
+                        <a href="/personal_cv/">
+                            <img src="img/foto.png" alt="Avatar" class="user-photo">
+                        </a>
+                        <div class="text-xl font-semibold mb-1.5 dark:text-teal-400 tracking-wide">Nicol&aacute;s
+                            Y&eacute;venes C.</div>
+                        <div class="text-sm text-gray-400 mb-7 dark:text-gray-300">Desarrollador FullStack JAVA Trainee
+                        </div>
+                        <div id="downLoadCv" class="flex group">
+                            <button class="ownload-btn">Descarga mi CV</button>
+                            <button class="download-btn-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                                </svg></button>
+                        </div>
+                        <script>
+                            document.getElementById('downLoadCv').addEventListener('click', function () {
+                                var pdfUrl = "document/FreddyYevenesCV.pdf";
+                                var link = document.createElement('a');
+                                link.href = pdfUrl;
+                                link.download = 'FreddyYevenesCV.pdf';
+                                link.target = '_blank';
+                                link.click();
+                            });
+                        </script>
+                    </div>
+                </div><!-- End User Block -->
+
+                <div class="p-7 block-section dark:bg-zinc-900"><!-- Start Info Block -->
+                    <h2 class="text-xl font-semibold mb-8 dark:text-white uppercase tracking-wide">Informaci&oacute;n
+                        Personal</h2>
+                    <div class="space-y-4">
+                        <div class="flex justify-between">
+                            <div class="text-gray-600 dark:text-gray-300">Vivo en</div>
+                            <div class="font-medium text-right text-gray-700 dark:text-teal-400">Santiago, Chile</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-600 dark:text-gray-300">Fecha Nacimiento</div>
+                            <div class="font-medium text-right text-gray-700 dark:text-teal-400">15/05/1994</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-600 dark:text-gray-300">Mi Edad</div>
+                            <div class="font-medium text-right text-gray-700 dark:text-teal-400">29 Años</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-600 dark:text-gray-300">Mi Telefono</div>
+                            <div class="font-medium text-right text-gray-700 dark:text-teal-400">+569 4934 9815</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-gray-400 dark:text-gray-300">Disponibilidad</div>
+                            <div class="font-medium text-right text-gray-600 dark:text-teal-400">Inmediata</div>
+                        </div>
+                    </div>
+                </div><!-- End Info Block -->
+
+                <div class="p-7 block-section flow-root dark:bg-zinc-800"><!-- Start Skills Block -->
+                    <h2 class="text-xl font-semibold mb-8 dark:text-teal-400 uppercase tracking-wide">Skills</h2>
+                    <div class="-m-2 flex flex-wrap justify-center items-center space-x-2">
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/javaLogo.svg" alt="Java" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/springLogo.png" alt="Spring" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/tailwindLogo.png" alt="Tailwind Css" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/mySqlLogo.png" alt="Mysql" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/mongodbLogo.png" alt="MongoDB" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/gitLogo.png" alt="MongoDB" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/htmlLogo.png" alt="HTML5" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/cssLogo.png" alt="CSS3" class="w-8 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/jsLogo.png" alt="JavaScript" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/bulmaCSSLogo.png" alt="BulmaCSS" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/windowsServer.png" alt="Windows Server" class="w-14 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/ubuntuLogo.png" alt="ubuntu" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/wordpressLogo.png" alt="wordPress" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/365Logo.png" alt="365" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/psLogo.png" alt="PhotoShop" class="w-12 h-auto">
+                        </div>
+                        <div
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/canvaLogo.png" alt="Canva" class="w-10 h-auto">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Skills Block -->
+
+            </div><!-- End Left Side -->
+
+            <div class="space-y-5 lg:col-span-2"><!-- Start Right Side -->
+
+                <div class="p-7 pb-0 block-section dark:bg-zinc-900"><!-- Start About Me Block -->
+                    <div class="h2 font-semibold uppercase tracking-wide mb-4 dark:text-teal-400">Acerca de mi</div>
+                    <p class="text-gray-800  mb-8 dark:text-gray-300">
+                        Soy Freddy Nicolas Yevenes Carrasco, un apasionado desarrollador de 29 años.
+                        Siempre en busca de oportunidades para aprender y crecer en el mundo de la
+                        programación. Destaco por mi creatividad en soluciones eficientes, atención a detalles y
+                        habilidad en trabajo en equipo. Valoro la comunicación, colaboración y la pasión por convertir
+                        ideas en soluciones impactantes. Emocionado por nuevas oportunidades y ansioso por
+                        contribuir a proyectos desafiantes.
+                    </p>
+
+                    <div class="flex flex-col space-y-4 dark:bg-zinc-800 rounded-md">
+                        <div class="h2 font-semibold tracking-wide dark:text-teal-400 ml-1">CONTACTAME:</div>
+                        <ul class="flex space-x-3 ml-2">
+                            <li>
+                                <a href="#" class="flex items-center mb-2 bg-white rounded-md">
+                                    <box-icon type='logo' name='whatsapp' color="green" size="sm"></box-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:nicolasyevs@gmail.com" target="blank"
+                                    class="flex items-center bg-white rounded-md">
+                                    <box-icon name='gmail' type='logo' color="red" size="sm"></box-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="flex items-center bg-white rounded-md">
+                                    <box-icon type='logo' name='github' color="purple" size="sm"></box-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="flex items-center bg-white rounded-md">
+                                    <box-icon type='logo' name='linkedin' color="blue" size="sm"></box-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="my-5"></div>
+
+
+                </div><!-- End About Me Block -->
+
+                <div class="p-7 block-section dark:bg-zinc-900"><!-- Start Experience Block -->
+                    <h2 class="text-xl font-semibold mb-8 dark:text-white uppercase tracking-wide">Experiencia</h2>
+                    <div class="mb-5 item-section">
+                        <div class="company-logo" style="background-color: #1DA1F2;">
+                            <i class="bx bxl-twitter text-3xl"></i>
+                        </div>
+
+                        <div class="w-full space-y-5">
+                            <div class="item-header">
+                                <div class="space-y-1.5">
+                                    <div class="font-medium dark:text-teal-400 tracking-wide">Negocio Personal</div>
+                                    <div class="flex space-x-5">
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                                </path>
+                                            </svg>
+                                            <span>Gato Nino</span>
+                                        </div>
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                            <span>Santiago, Chile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2 sm:text-right">
+                                    <div class="item-header-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
+                                        <span>Febrero 2021 – Presente</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300">
+                                Negocio personal dedicado a la creacion de sitios web,
+                                diseños y articulos publicitarios para pequeños y grandes negocios.
+                            </p>
+                            <div class="flex items-center space-x-1">
+                                <box-icon name='world'></box-icon>
+                                <span class="underline font-medium text-indigo-500">www.gatonino.cl</span>
+                            </div>
+                            <div class="border-b border-gray-200"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5 item-section">
+                        <div class="company-logo" style="background-color: #0061FF;">
+                            <i class="bx bxl-dropbox text-3xl"></i>
+                        </div>
+
+                        <div class="w-full space-y-5">
+                            <div class="item-header mt-4">
+                                <div class="space-y-1.5">
+                                    <div class="font-medium dark:text-teal-400 tracking-wide">Conductor y Supervisor de
+                                        equipo</div>
+                                    <div class="flex space-x-5">
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                                </path>
+                                            </svg>
+                                            <span>Transportes 124</span>
+                                        </div>
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                            <span>Region Metropolitana, Chile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2 sm:text-right">
+                                    <div class="item-header-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
+                                        <span>Enero 2018 – Enero 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-300">
+                                Encargado de la recepcion, distribuicion y almacenamiento de diferentes tipos de
+                                productos de prensa escrita (periodicos, revistas, etc.).
+                                <br>Gestion de rutas para la entrega de periodicos en estaciones de metro ("La Hora").
+                                <br>Encargado de supervisar equipo para cumplir el correcto movimiento de cargas y
+                                cumplir plazos de entrega en diferentes comunas y provincias de la Region Metropolitana.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- Start Experience Block -->
+                <div class="p-7 block-section dark:bg-zinc-900"><!-- Start Education Block -->
+                    <h2 class="text-xl font-semibold mb-8 dark:text-white uppercase tracking-wide">Educaci&oacute;n</h2>
+                    <div class="mb-5 item-section">
+                        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-cover"
+                            style="background-image: url('assets/img/bu-logo.jpg');">
+                        </div>
+
+                        <div class="w-full space-y-5">
+                            <div class="item-header items-end">
+                                <div class="space-y-1.5">
+                                    <div class="font-medium dark:text-teal-400 tracking-wide">FullStack Java Trainee
+                                    </div>
+                                    <div class="flex space-x-4">
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                                <path
+                                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                                                </path>
+                                            </svg>
+                                            <span>ADALID</span>
+                                        </div>
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                            <span>Santiago, Chile.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-1.5 sm:text-right">
+                                    <div class="item-header-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
+                                        <span>Marzo 2023 – Julio 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-b border-gray-200 dark:text-gray-300">
+                                <p>Curso SENCE.
+                                    <br>
+                                    Enfocado en el desarrollo de aplicaciones web utilizando Spring boot Framework
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-section">
+                        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-cover"
+                            style="background-image: url('assets/img/bu-logo.jpg');">
+                        </div>
+
+                        <div class="w-full space-y-5">
+                            <div class="item-header items-end">
+                                <div class="space-y-1.5 mt-4">
+                                    <div class="font-medium dark:text-teal-400 tracking-wide">Autodidacta</div>
+                                    <div class="flex space-x-5">
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                                <path
+                                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                                                </path>
+                                            </svg>
+                                            <span>web</span>
+                                        </div>
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                            <span>Chile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-1.5 sm:text-right">
+                                    <div class="item-header-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
+                                        <span>En constante actualizaci&oacute;n</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-b border-gray-200 dark:text-gray-300">
+                                <p>
+                                    Me mantengo en constante busqueda de conocimiento.
+                                    Desarrollando cursos de manera online.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-section mt-6">
+                        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-cover"
+                            style="background-image: url('assets/img/bu-logo.jpg');">
+                        </div>
+
+                        <div class="w-full space-y-5">
+                            <div class="item-header items-end">
+                                <div class="space-y-1.5">
+                                    <div class="font-medium dark:text-teal-400 tracking-wide">Programaci&oacute;n y
+                                        Analisis de Sistemas (Abandonado)</div>
+                                    <div class="flex space-x-5">
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                                <path
+                                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                                                </path>
+                                            </svg>
+                                            <span>Ciisa</span>
+                                        </div>
+                                        <div class="item-header-info">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                            <span>Santiago, Chile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-1.5 sm:text-right">
+                                    <div class="item-header-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
+                                        <span>2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-b border-gray-200 dark:text-gray-300">
+                                <p>
+                                    Curse 1 año de la carrera Programaci&oacute;n y analisis de sistemas, donde pude
+                                    adquirir conocimientos que marcaron mi camino en el desarrollo.
+                                    Lamentablemente por motivos de fuerza mayor no pude seguir, pero no fue impedimento
+                                    para dejar de adquirir conocimiento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Start Education Block -->
+
+            </div><!-- End Right Side -->
+
+        </div>
+    </main>
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-zinc-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
+            <span
+                class="text-md                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     text-gray-500 sm:text-center dark:text-gray-400 text-center">©
+                2023 Nicol&aacute;s Y&eacute;venes Carrasco.</span>
+        </div>
+    </footer>
+</body>
+
+</html>
