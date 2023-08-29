@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <!-- Enlace a Fancybox -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+     <!--Enlace a BoxIcons-->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!--Enlace a Tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Nicolas Yevenes C. CV | Curriculum Vitae</title>
 </head>
@@ -23,8 +27,11 @@
                     <div class="pt-14 p-7 bg-white relative dark:bg-zinc-800">
                         <span class="status-badge bg-teal-400 dark:text-black">Open to Work</span>
                         <div>
-                            <img src="img/foto.png" alt="Avatar" class="user-photo">
+                            <a href="img/mifotoCircle.png" class="imagen-redonda" data-fancybox="gallery" data-caption="mi foto | Nicolas Yevenes Carrasco" data-speed="700" data-zoom="true" data-zoom-opacity="true">
+                                <img src="img/mifoto.jpg" class="user-photo">
+                            </a>
                         </div>
+
                         <div class="text-xl font-semibold mb-1.5 dark:text-teal-400 tracking-wide">Nicol&aacute;s
                             Y&eacute;venes C.</div>
                         <div class="text-sm text-gray-400 mb-7 dark:text-gray-300">Desarrollador FullStack JAVA Trainee
@@ -134,9 +141,9 @@
                             <img src="img/wordpressLogo.png" alt="wordPress" class="w-12 h-auto">
                         </div>
                         <div
-                        class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
-                        <img src="img/wixLogo.png" alt="wix" class="w-12 h-auto">
-                    </div>
+                            class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
+                            <img src="img/wixLogo.png" alt="wix" class="w-12 h-auto">
+                        </div>
                         <div
                             class="bg-purple-100 rounded-xl font-semibold text-purple-700 p-2 m-2 flex items-center dark:bg-zinc-200">
                             <img src="img/365Logo.png" alt="365" class="w-12 h-auto">
@@ -162,8 +169,9 @@
                         Siempre en busca de oportunidades para aprender y crecer en el mundo de la
                         programación. Destaco por mi creatividad en soluciones eficientes, atención a detalles y
                         habilidad en trabajo en equipo. Valoro la comunicación, colaboración y la pasión por convertir
-                        ideas en soluciones impactantes. Con conocimientos en desarrollo front-end utilizando Frameworks de CSS 
-                        y JavaScript. En el ámbito back-end, tengo experiencia en el uso de Java Spring Boot. 
+                        ideas en soluciones impactantes. Con conocimientos en desarrollo front-end utilizando Frameworks
+                        de CSS
+                        y JavaScript. En el ámbito back-end, tengo experiencia en el uso de Java Spring Boot.
                         Emocionado por nuevas oportunidades y ansioso por
                         contribuir a proyectos desafiantes.
                     </p>
@@ -248,15 +256,19 @@
                                 </div>
                             </div>
                             <p class="text-gray-600 dark:text-gray-300">
-                                Negocio personal dedicado a la creacion y diseño de art&iacute;culos publicitarios, 
+                                Negocio personal dedicado a la creacion y diseño de art&iacute;culos publicitarios,
                                 fotograf&iacute;a y otros elementos similares.
-                                Desde 2022 tambi&eacute;n he estado trabajando en la creaci&oacute;n de sitios web y Ecommerce
+                                Desde 2022 tambi&eacute;n he estado trabajando en la creaci&oacute;n de sitios web y
+                                Ecommerce
                                 para pequeños y medianos negocios.
-                                Utilizando CMS como Wordpress y Wix. También herramientas de diseño como PhotoShop y Canva.
+                                Utilizando CMS como Wordpress y Wix. También herramientas de diseño como PhotoShop y
+                                Canva.
                             </p>
-                            <div class="mt-2 h2 dark:text-white underline">Ecommerce desarrollado para la tienda "Portal Panaderos": </div>
+                            <div class="mt-2 h2 dark:text-white underline">Ecommerce desarrollado para la tienda "Portal
+                                Panaderos": </div>
                             <a href="https://portalpanaderos.com/" class="flex items-center space-x-1" target="blank">
-                                <img src="img/portalPanaderosLogo.png" alt="Logo portal Panaderos" class="w-8 h-auto rounded-full mr-2">
+                                <img src="img/portalPanaderosLogo.png" alt="Logo portal Panaderos"
+                                    class="w-8 h-auto rounded-full mr-2">
                                 <span class="underline font-medium text-indigo-500">portalpanaderos.com</span>
                             </a>
                             <div class="border-b border-gray-200"></div>
@@ -486,9 +498,11 @@
                             </div>
                             <div class="border-b border-gray-200 dark:text-gray-300">
                                 <p>
-                                    Curs&eacute; 1 año de la carrera Programaci&oacute;n y analisis de sistemas, donde pude
+                                    Curs&eacute; 1 año de la carrera Programaci&oacute;n y analisis de sistemas, donde
+                                    pude
                                     adquirir conocimientos que marcaron mi camino en el desarrollo.
-                                    Lamentablemente por motivos de fuerza mayor tuve que postergar mis estudios, pero no fue impedimento
+                                    Lamentablemente por motivos de fuerza mayor tuve que postergar mis estudios, pero no
+                                    fue impedimento
                                     para dejar de adquirir conocimiento.
                                 </p>
                             </div>
@@ -505,6 +519,10 @@
                 2023 Nicol&aacute;s Y&eacute;venes Carrasco.</span>
         </div>
     </footer>
+        <!-- Enlace a jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- Enlace a Fancybox JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
